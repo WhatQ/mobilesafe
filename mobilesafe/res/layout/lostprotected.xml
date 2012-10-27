@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="entrySetupWizard"
+        android:text="重新进入设置向导"
+        android:textSize="25sp" >
+    </TextView>
+
+    <ImageView style="@style/devide_line_style" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_isprotecting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:clickable="true"
+            android:text="正在保护"
+            android:onClick="changeProtect"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="30px"
+            android:layout_height="30px"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"
+            android:id="@+id/iv_isprotected"
+            android:src="@drawable/lock" />
+    </RelativeLayout>
+    <ImageView style="@style/devide_line_style" />
+       <TextView
+            android:id="@+id/tv_lost_protect_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:clickable="true"
+            android:text="安全号码为:"
+            android:textSize="25sp" />
+       
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/content_text_style"
+        android:text="1.查询位置#*location*#\n2.销毁数据#*wipedata*#\n3.远程锁屏#*lockscreen*#\n"
+        
+        >
+        
+        
+    </TextView>
+</LinearLayout>

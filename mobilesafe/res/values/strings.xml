@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">Mobilesafe</string>
+    <string name="main_screen">主界面</string>
+    <string name="lostprotected">手机防盗</string>
+    <string name="setting">手机设置</string>
+    <string name="setup_wizard1">设置向导1/4</string>
+    <string name="setup_wizard2">设置向导2/4</string>
+    <string name="setup_wizard3">设置向导3/4</string>
+    <string name="setup_wizard4">设置向导4/4</string>
+    <string name="select_contact">选择联系人</string>
+    <string name="atools">高级工具</string>
+    <string name="queryaddress">号码归属地查询</string>
+    <string name="callsmssafe">电话/短信黑名单</string>
+    <string name="app_manger">程序管理</string>
+    <string name="app_lock">程序锁</string>
+    <string name="task_manager">任务管理</string>
+    <string name="task_setting">任务管理器设置</string>
+    <string name="common_number">常用号码查询</string>
+    <string name="traffic_manager">流量统计</string>
+    <string name="systemopt">系统清理</string>
+    <string name="kill_virus">手机杀毒</string>
+</resources>

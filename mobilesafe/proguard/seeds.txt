@@ -1,0 +1,68 @@
+cn.itcast.mobilesafe.ui.AtoolsActivity
+cn.itcast.mobilesafe.ui.TaskSettingActivity
+cn.itcast.mobilesafe.ui.LostProtectedActivity
+cn.itcast.mobilesafe.ui.CallSmsSafeActivity
+cn.itcast.mobilesafe.ui.LockAppActivity
+cn.itcast.mobilesafe.ui.MainActivity
+cn.itcast.mobilesafe.ui.SetupWizard2Activity
+cn.itcast.mobilesafe.ui.SetupWizard3Activity
+cn.itcast.mobilesafe.ui.SetupWizard1Activity
+cn.itcast.mobilesafe.ui.CommonNumberActivity
+cn.itcast.mobilesafe.ui.SystemOptActivity
+cn.itcast.mobilesafe.ui.QureyAddressActivity
+cn.itcast.mobilesafe.ui.AppDetailActivity
+cn.itcast.mobilesafe.ui.DragViewActivity
+cn.itcast.mobilesafe.ui.SelectContactActivity
+cn.itcast.mobilesafe.ui.TaskManagerActivity
+cn.itcast.mobilesafe.ui.TrafficManagerActivity
+cn.itcast.mobilesafe.ui.AppManagerActivity
+cn.itcast.mobilesafe.ui.SplashActivity
+cn.itcast.mobilesafe.ui.SettingActivity
+cn.itcast.mobilesafe.ui.KillVirusActivity
+cn.itcast.mobilesafe.ui.SetupWizard4Activity
+cn.itcast.mobilesafe.MobilesafeApplication
+cn.itcast.mobilesafe.service.BackUpSmsService
+cn.itcast.mobilesafe.service.QueryAddressService
+cn.itcast.mobilesafe.service.KillTaskService
+cn.itcast.mobilesafe.service.KillBackgroundService
+cn.itcast.mobilesafe.service.UpdateWidgetService
+cn.itcast.mobilesafe.receiver.BootCompleteReceiver
+cn.itcast.mobilesafe.receiver.CallPhoneReceiver
+cn.itcast.mobilesafe.receiver.SmsReceiver
+cn.itcast.mobilesafe.receiver.MyAdmin
+cn.itcast.mobilesafe.widget.MobileSafeWidget
+cn.itcast.mobilesafe.db.provider.LockAppInfoProvider
+cn.itcast.mobilesafe.ui.AtoolsActivity: void queryAddress(android.view.View)
+cn.itcast.mobilesafe.ui.AtoolsActivity: void autoIpdail(android.view.View)
+cn.itcast.mobilesafe.ui.AtoolsActivity: void setAutoDail(android.view.View)
+cn.itcast.mobilesafe.ui.AtoolsActivity: void smsBackUp(android.view.View)
+cn.itcast.mobilesafe.ui.AtoolsActivity: void restoreSms(android.view.View)
+cn.itcast.mobilesafe.ui.AtoolsActivity: void applock(android.view.View)
+cn.itcast.mobilesafe.ui.AtoolsActivity: void queryCommonNumber(android.view.View)
+cn.itcast.mobilesafe.ui.LostProtectedActivity: void entrySetupWizard(android.view.View)
+cn.itcast.mobilesafe.ui.LostProtectedActivity: void changeProtect(android.view.View)
+cn.itcast.mobilesafe.ui.CallSmsSafeActivity: void add(android.view.View)
+cn.itcast.mobilesafe.ui.SetupWizard2Activity: void next(android.view.View)
+cn.itcast.mobilesafe.ui.SetupWizard2Activity: void pre(android.view.View)
+cn.itcast.mobilesafe.ui.SetupWizard2Activity: void bind(android.view.View)
+cn.itcast.mobilesafe.ui.SetupWizard2Activity: void unbind(android.view.View)
+cn.itcast.mobilesafe.ui.SetupWizard3Activity: void selectContact(android.view.View)
+cn.itcast.mobilesafe.ui.SetupWizard3Activity: void next(android.view.View)
+cn.itcast.mobilesafe.ui.SetupWizard3Activity: void pre(android.view.View)
+cn.itcast.mobilesafe.ui.SetupWizard1Activity: void next(android.view.View)
+cn.itcast.mobilesafe.ui.SystemOptActivity: void clear(android.view.View)
+cn.itcast.mobilesafe.ui.QureyAddressActivity: void query(android.view.View)
+cn.itcast.mobilesafe.ui.TaskManagerActivity: void killTask(android.view.View)
+cn.itcast.mobilesafe.ui.TaskManagerActivity: void taskSetting(android.view.View)
+cn.itcast.mobilesafe.ui.AppManagerActivity: void onClick(android.view.View)
+cn.itcast.mobilesafe.ui.SettingActivity: void closeUpdate(android.view.View)
+cn.itcast.mobilesafe.ui.SettingActivity: void openUpdate(android.view.View)
+cn.itcast.mobilesafe.ui.SettingActivity: void openQueryAddress(android.view.View)
+cn.itcast.mobilesafe.ui.SettingActivity: void stopQueryAddress(android.view.View)
+cn.itcast.mobilesafe.ui.SettingActivity: void changeLocation(android.view.View)
+cn.itcast.mobilesafe.ui.SettingActivity: void startAppLock(android.view.View)
+cn.itcast.mobilesafe.ui.SettingActivity: void stopAppLock(android.view.View)
+cn.itcast.mobilesafe.ui.SetupWizard4Activity: void next(android.view.View)
+cn.itcast.mobilesafe.ui.SetupWizard4Activity: void pre(android.view.View)
+cn.itcast.mobilesafe.ui.SetupWizard4Activity: void startProtecting(android.view.View)
+cn.itcast.mobilesafe.ui.SetupWizard4Activity: void stopProtecting(android.view.View)

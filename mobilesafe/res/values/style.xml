@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Transparent">  
+    <item name="android:windowBackground">@color/transparent_background</item>  
+    <item name="android:windowNoTitle">true</item>  
+    <item name="android:windowIsTranslucent">true</item>    
+    <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>  
+  </style>  
+    
+    
+    <style name="set_active_tv_style">
+    	<item name="android:layout_width">match_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:textColor">#000</item>
+	     <item name="android:textSize">16dip</item>
+	     <item name="android:layout_marginTop">12dp</item>
+	     <item name="android:clickable">true</item>
+	     <item name="android:onClick">execute</item>
+	     <item name="android:layout_marginLeft">10dp</item>
+    </style>
+    <style name="title_text_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">5px</item>
+        <item name="android:paddingTop">10px</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#ff66ff00</item>
+    </style>
+
+    <style name="devide_line_style">
+        <item name="android:layout_marginTop">5px</item>
+        <item name="android:src">@drawable/devide_line</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="content_text_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">5px</item>
+        <item name="android:paddingTop">10px</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#ff66ff00</item>
+    </style>
+
+    <style name="image_star_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:src">@android:drawable/btn_star_big_on</item>
+        <item name="android:layout_marginTop">5px</item>
+    </style>
+
+    <style name="image_check_on_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:src">@android:drawable/presence_online</item>
+    </style>
+
+    <style name="image_check_off_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:src">@android:drawable/presence_invisible</item>
+    </style>
+
+    <style name="button_next_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">下一步</item>
+        <item name="android:drawableRight">@drawable/next</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="button_pre_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">上一步</item>
+        <item name="android:drawableLeft">@drawable/previous</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    <style name="theme_half_trans" parent="@android:style/Theme.Translucent">
+        
+
+    </style>
+</resources>

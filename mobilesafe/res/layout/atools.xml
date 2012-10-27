@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<TextView 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="手机号码归属地查询"
+    android:onClick="queryAddress"
+    android:clickable="true"
+    android:textSize="25sp"
+    />
+<ImageView 
+    style="@style/devide_line_style"
+    />
+  <TextView 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="自动ip拨号"
+    android:onClick="autoIpdail"
+    android:clickable="true"
+    android:textSize="25sp"
+    />  
+<ImageView 
+    style="@style/devide_line_style"
+    />
+  <TextView 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="短信备份"
+    android:onClick="smsBackUp"
+    android:clickable="true"
+    android:textSize="25sp"
+    />  
+  <ImageView 
+    style="@style/devide_line_style"
+    />
+  <TextView 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="短信还原"
+    android:onClick="restoreSms"
+    android:clickable="true"
+    android:textSize="25sp"
+    />  
+      <ImageView 
+    style="@style/devide_line_style"
+    />
+  <TextView 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="程序锁"
+    android:onClick="applock"
+    android:clickable="true"
+    android:textSize="25sp"
+    />  
+          <ImageView 
+    style="@style/devide_line_style"
+    />
+  <TextView 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="常用号码查询"
+    android:onClick="queryCommonNumber"
+    android:clickable="true"
+    android:textSize="25sp"
+    />  
+</LinearLayout>

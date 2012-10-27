@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/title_text_style"
+        android:text="1.欢迎使用防盗设置" />
+
+    <ImageView style="@style/devide_line_style" />
+
+    <TextView
+        style="@style/content_text_style"
+        android:text="您的手机防盗卫士:"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView style="@style/image_star_style" />
+
+        <TextView
+            style="@style/content_text_style"
+            android:text="sim卡变更报警" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView style="@style/image_star_style" />
+
+        <TextView
+            style="@style/content_text_style"
+            android:text="gps追踪" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView style="@style/image_star_style" />
+
+        <TextView
+            style="@style/content_text_style"
+            android:text="销毁数据" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView style="@style/image_star_style" />
+
+        <TextView
+            style="@style/content_text_style"
+            android:text="远程锁屏" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView style="@style/image_check_on_style" />
+
+        <ImageView style="@style/image_check_off_style" />
+
+        <ImageView style="@style/image_check_off_style" />
+
+        <ImageView style="@style/image_check_off_style" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="10px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitXY"
+        android:src="@drawable/setup1" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <Button style="@style/button_next_style" 
+            android:onClick="next"
+            >
+        </Button>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:id="@+id/rl_app_list_main"
+     android:background="#ffffffff" 
+    android:orientation="vertical" >
+
+    <ProgressBar
+        android:id="@+id/pb_app_manager"
+        android:layout_width="100px"
+        android:layout_height="100px" 
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        />
+
+    <RelativeLayout
+        android:id="@+id/rl_app_manger"
+        android:layout_width="fill_parent"
+        android:layout_height="52.0dip"
+        android:background="@drawable/list_header_bar2"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/tv_app_manager_title"
+            android:layout_width="fill_parent"
+            android:layout_height="45.0dip"
+            android:layout_alignTop="@id/rl_app_manger"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="所 有 程 序"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textSize="20.0dip" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_appmanage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_app_manger"
+        android:cacheColorHint="#00000000"
+        android:divider="#00ffffff"
+        android:dividerHeight="3.0dip"
+        android:listSelector="@drawable/focused_bg"
+        android:paddingLeft="3.0dip"
+        android:paddingRight="3.0dip" />
+
+</RelativeLayout>

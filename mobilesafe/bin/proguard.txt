@@ -1,0 +1,194 @@
+# view AndroidManifest.xml #generated:11
+-keep class android.test.InstrumentationTestRunner { <init>(...); }
+
+# view AndroidManifest.xml #generated:33
+-keep class cn.itcast.mobilesafe.MobilesafeApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:177
+-keep class cn.itcast.mobilesafe.db.provider.LockAppInfoProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:137
+-keep class cn.itcast.mobilesafe.receiver.BootCompleteReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:132
+-keep class cn.itcast.mobilesafe.receiver.CallPhoneReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:147
+-keep class cn.itcast.mobilesafe.receiver.MyAdmin { <init>(...); }
+
+# view AndroidManifest.xml #generated:142
+-keep class cn.itcast.mobilesafe.receiver.SmsReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:172
+-keep class cn.itcast.mobilesafe.service.BackUpSmsService { <init>(...); }
+
+# view AndroidManifest.xml #generated:170
+-keep class cn.itcast.mobilesafe.service.KillBackgroundService { <init>(...); }
+
+# view AndroidManifest.xml #generated:168
+-keep class cn.itcast.mobilesafe.service.KillTaskService { <init>(...); }
+
+# view AndroidManifest.xml #generated:166
+-keep class cn.itcast.mobilesafe.service.QueryAddressService { <init>(...); }
+
+# view AndroidManifest.xml #generated:174
+-keep class cn.itcast.mobilesafe.service.UpdateWidgetService { <init>(...); }
+
+# view AndroidManifest.xml #generated:107
+-keep class cn.itcast.mobilesafe.ui.AppDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:95
+-keep class cn.itcast.mobilesafe.ui.AppManagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:81
+-keep class cn.itcast.mobilesafe.ui.AtoolsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:91
+-keep class cn.itcast.mobilesafe.ui.CallSmsSafeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:115
+-keep class cn.itcast.mobilesafe.ui.CommonNumberActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:89
+-keep class cn.itcast.mobilesafe.ui.DragViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:127
+-keep class cn.itcast.mobilesafe.ui.KillVirusActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:99
+-keep class cn.itcast.mobilesafe.ui.LockAppActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class cn.itcast.mobilesafe.ui.LostProtectedActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class cn.itcast.mobilesafe.ui.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:85
+-keep class cn.itcast.mobilesafe.ui.QureyAddressActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:77
+-keep class cn.itcast.mobilesafe.ui.SelectContactActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class cn.itcast.mobilesafe.ui.SettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:61
+-keep class cn.itcast.mobilesafe.ui.SetupWizard1Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:65
+-keep class cn.itcast.mobilesafe.ui.SetupWizard2Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:69
+-keep class cn.itcast.mobilesafe.ui.SetupWizard3Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:73
+-keep class cn.itcast.mobilesafe.ui.SetupWizard4Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class cn.itcast.mobilesafe.ui.SplashActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:123
+-keep class cn.itcast.mobilesafe.ui.SystemOptActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:103
+-keep class cn.itcast.mobilesafe.ui.TaskManagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:111
+-keep class cn.itcast.mobilesafe.ui.TaskSettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:119
+-keep class cn.itcast.mobilesafe.ui.TrafficManagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:156
+-keep class cn.itcast.mobilesafe.widget.MobileSafeWidget { <init>(...); }
+
+# onClick res/layout/call_sms_safe.xml #generated:17
+-keepclassmembers class * { *** add(...); }
+
+# onClick res/layout/atools.xml #generated:50
+-keepclassmembers class * { *** applock(...); }
+
+# onClick res/layout/atools.xml #generated:17
+-keepclassmembers class * { *** autoIpdail(...); }
+
+# onClick res/layout/setup_wizard2.xml #generated:27
+-keepclassmembers class * { *** bind(...); }
+
+# onClick res/layout/setting.xml #generated:56
+-keepclassmembers class * { *** changeLocation(...); }
+
+# onClick res/layout/lostprotected.xml #generated:23
+-keepclassmembers class * { *** changeProtect(...); }
+
+# onClick res/layout/system_opt.xml #generated:18
+-keepclassmembers class * { *** clear(...); }
+
+# onClick res/layout/setting.xml #generated:8
+-keepclassmembers class * { *** closeUpdate(...); }
+
+# onClick res/layout/lostprotected.xml #generated:7
+-keepclassmembers class * { *** entrySetupWizard(...); }
+
+# onClick res/layout/task_manager.xml #generated:28
+-keepclassmembers class * { *** killTask(...); }
+
+# onClick res/layout/setup_wizard1.xml #generated:95
+# onClick res/layout/setup_wizard2.xml #generated:69
+# onClick res/layout/setup_wizard3.xml #generated:59
+# onClick res/layout/setup_wizard4.xml #generated:61
+-keepclassmembers class * { *** next(...); }
+
+# onClick res/layout/setting.xml #generated:32
+-keepclassmembers class * { *** openQueryAddress(...); }
+
+# onClick res/layout/setting.xml #generated:20
+-keepclassmembers class * { *** openUpdate(...); }
+
+# onClick res/layout/setup_wizard2.xml #generated:74
+# onClick res/layout/setup_wizard3.xml #generated:64
+# onClick res/layout/setup_wizard4.xml #generated:67
+-keepclassmembers class * { *** pre(...); }
+
+# onClick res/layout/query_address.xml #generated:13
+-keepclassmembers class * { *** query(...); }
+
+# onClick res/layout/atools.xml #generated:6
+-keepclassmembers class * { *** queryAddress(...); }
+
+# onClick res/layout/atools.xml #generated:61
+-keepclassmembers class * { *** queryCommonNumber(...); }
+
+# onClick res/layout/atools.xml #generated:39
+-keepclassmembers class * { *** restoreSms(...); }
+
+# onClick res/layout/setup_wizard3.xml #generated:24
+-keepclassmembers class * { *** selectContact(...); }
+
+# onClick res/layout/auto_ip_dail.xml #generated:22
+-keepclassmembers class * { *** setAutoDail(...); }
+
+# onClick res/layout/atools.xml #generated:28
+-keepclassmembers class * { *** smsBackUp(...); }
+
+# onClick res/layout/setting.xml #generated:68
+-keepclassmembers class * { *** startAppLock(...); }
+
+# onClick res/layout/setup_wizard4.xml #generated:23
+-keepclassmembers class * { *** startProtecting(...); }
+
+# onClick res/layout/setting.xml #generated:80
+-keepclassmembers class * { *** stopAppLock(...); }
+
+# onClick res/layout/setup_wizard4.xml #generated:28
+-keepclassmembers class * { *** stopProtecting(...); }
+
+# onClick res/layout/setting.xml #generated:44
+-keepclassmembers class * { *** stopQueryAddress(...); }
+
+# onClick res/layout/task_manager.xml #generated:35
+-keepclassmembers class * { *** taskSetting(...); }
+
+# onClick res/layout/setup_wizard2.xml #generated:34
+-keepclassmembers class * { *** unbind(...); }
+

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/title_text_style"
+        android:text="4.恭喜你,设置完成" />
+
+    <ImageView style="@style/devide_line_style" />
+
+    <TextView
+        style="@style/content_text_style"
+        android:text="您的手机设置已经完成 "
+        android:textSize="20sp" />
+	<TextView 
+	    style="@style/content_text_style"
+	    android:text="未开启保护"
+	    android:gravity="center"
+	    android:id="@+id/tv_setup4_protect"
+	    ></TextView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startProtecting"
+        android:text="保护开启" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="stopProtecting"
+        android:text="停止保护" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView style="@style/image_check_off_style" />
+
+        <ImageView style="@style/image_check_off_style" />
+
+        <ImageView style="@style/image_check_off_style" />
+
+        <ImageView style="@style/image_check_on_style" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10px"
+        android:scaleType="fitXY"
+        android:src="@drawable/setup4" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <Button
+            style="@style/button_next_style"
+            android:text="完成"
+            android:onClick="next" >
+        </Button>
+
+        <Button
+            style="@style/button_pre_style"
+            android:onClick="pre" >
+        </Button>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <!-- gradient 渐变色的意思 -->
+
+    <gradient
+        android:angle="45"
+        android:endColor="#FFFFFFFF"
+        android:startColor="#FFFFFFEE" />
+
+    <padding
+        android:bottom="7dp"
+        android:left="7dp"
+        android:right="7dp"
+        android:top="7dp" />
+
+    <corners android:radius="8dp" />
+
+
+
+</shape>

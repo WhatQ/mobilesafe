@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/title_text_style"
+        android:text="3.设置安全号码" />
+
+    <ImageView style="@style/devide_line_style" />
+
+    <TextView
+        style="@style/content_text_style"
+        android:text="sim卡更换后,可以把报警发送到该安全号码上"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入或者选择安全手机号码" 
+        android:id="@+id/et_setup3_number"
+        />
+	<Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"	    
+	    android:text="选择联系人"
+	    android:onClick="selectContact"
+	    />
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView style="@style/image_check_off_style" />
+
+        <ImageView style="@style/image_check_off_style" />
+
+        <ImageView style="@style/image_check_on_style" />
+
+        <ImageView style="@style/image_check_off_style" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10px"
+        android:scaleType="fitXY"
+        android:src="@drawable/phone" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <Button
+            style="@style/button_next_style"
+            android:onClick="next" >
+        </Button>
+
+        <Button
+            style="@style/button_pre_style"
+            android:onClick="pre" >
+        </Button>
+    </RelativeLayout>
+
+</LinearLayout>
